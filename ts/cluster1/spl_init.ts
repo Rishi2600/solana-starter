@@ -19,6 +19,7 @@ const connection = new Connection("https://api.devnet.solana.com", commitment);
             6
         )
         console.log(mint)
+        //Your mint is 85yFXxwMQDBAfKSBGkTrREWebCLKvdK1eQmoAWmUJmuW
     } catch(error) {
         console.log(`Oops, something went wrong: ${error}`)
     }
